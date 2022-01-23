@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"server/config"
-	"server/internal/server/handlers"
+	"github.com/necutya/meeting-app/config"
+	"github.com/necutya/meeting-app/internal/server/handlers"
 
 	"github.com/gorilla/mux"
 	"github.com/justinas/alice"

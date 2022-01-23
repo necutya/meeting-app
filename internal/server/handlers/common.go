@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"server/internal/models"
+	"github.com/necutya/meeting-app/internal/models"
 
 	log "github.com/sirupsen/logrus"
 )

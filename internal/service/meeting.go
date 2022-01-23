@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"server/internal/models"
+	"github.com/necutya/meeting-app/internal/models"
 
 	"github.com/google/uuid"
 	"github.com/gorilla/websocket"

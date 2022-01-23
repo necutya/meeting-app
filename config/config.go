@@ -2,8 +2,8 @@ package config
 
 type Config struct {
 	LogLevel   string `mapstructure:"LOG_LEVEL" default:"DEBUG"`
-	HTTPConfig HTTP   `mapstructure:"HTTP_SERVER"`
-	RedisCfg   Redis  `mapstructure:"REDIS"`
+	HTTPConfig HTTP
+	RedisCfg   Redis `mapstructure:"REDIS"`
 }
 
 type HTTP struct {

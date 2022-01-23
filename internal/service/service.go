@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"server/config"
-	"server/internal/models"
+	"github.com/necutya/meeting-app/config"
+	"github.com/necutya/meeting-app/internal/models"
 
 	"github.com/google/uuid"
 )

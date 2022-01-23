@@ -3,8 +3,8 @@ package handlers
 import (
 	"net/http"
 
-	"server/internal/models"
-	"server/internal/service"
+	"github.com/necutya/meeting-app/internal/models"
+	"github.com/necutya/meeting-app/internal/service"
 
 	"github.com/google/uuid"
 	"github.com/gorilla/mux"

@@ -8,11 +8,11 @@ import (
 	"sync"
 	"syscall"
 
-	"server/config"
-	"server/internal/server/handlers"
-	"server/internal/server/http"
-	"server/internal/service"
-	"server/internal/storage/inmemory"
+	"github.com/necutya/meeting-app/config"
+	"github.com/necutya/meeting-app/internal/server/handlers"
+	"github.com/necutya/meeting-app/internal/server/http"
+	"github.com/necutya/meeting-app/internal/service"
+	"github.com/necutya/meeting-app/internal/storage/inmemory"
 
 	log "github.com/sirupsen/logrus"
 )
@@ -20,9 +20,9 @@ import (
 var (
 	cfg config.Config
 
-	ctx context.Context
+	ctx    context.Context
 	cancel context.CancelFunc
-	wg *sync.WaitGroup
+	wg     *sync.WaitGroup
 )
 
 func init() {
@@ -62,8 +62,6 @@ func setupGracefulShutdown(stop func()) {
 		stop()
 	}()
 }
-
-
 
 func main() {
 	srv := service.New(

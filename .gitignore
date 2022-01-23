@@ -16,7 +16,7 @@ vendor/
 # Local specifics
 .idea/
 /bin/*
-go.sum
+#go.sum
 config.json
 # osx artifacts
 .DS_Store

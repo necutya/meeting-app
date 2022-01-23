@@ -5,7 +5,7 @@ import (
 	"errors"
 	"sync"
 
-	"server/internal/models"
+	"github.com/necutya/meeting-app/internal/models"
 
 	"github.com/google/uuid"
 )
